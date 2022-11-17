@@ -60,12 +60,13 @@ const BooksScreen = () => {
       <Text>Render the list of books:</Text>
       {/** TODO: Ejercicio 1 */}
 
-      {/* {(<View>
+      {/* (
+        <View>
           {map((book, index) => (
             <Text>{`${index}. ${book.title} - ${book.author}`}</Text>
           ))}
-        </View>) }
-      */}
+        </View>
+      )} */}
       {/** 2. Uncomment next part after finishing part 1*/}
       {/* <View style={styles.secondContainer}>
         <Text>Insert a number</Text>
